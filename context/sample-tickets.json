@@ -1,0 +1,14 @@
+[
+  {
+    "channel": "email",
+    "message": "I can't login to my account"
+  },
+  {
+    "channel": "whatsapp",
+    "message": "Payment failed but money deducted"
+  },
+  {
+    "channel": "web",
+    "message": "How to use dashboard?"
+  }
+]
