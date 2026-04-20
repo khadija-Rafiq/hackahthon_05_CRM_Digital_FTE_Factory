@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
 
 export default function SupportForm() {
   const [submitMethod, setSubmitMethod] = useState('email'); // 'email' or 'whatsapp'
